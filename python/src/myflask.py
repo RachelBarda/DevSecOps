@@ -12,4 +12,5 @@ def getUser(userid):
     return jsonify(users[userid])
 
 
-app.run()
+app.run(host='0.0.0.0',port=5000)
+
